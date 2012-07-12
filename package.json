@@ -1,0 +1,24 @@
+{
+  "name": "initio",
+  "author": "Henrik Kjelsberg",
+  "version": "0.0.1",
+  "description": "A proper beginning for your stylusneeds.",
+  "keywords": ["stylus", "framework", "styl", "css", "sprite"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hkjels/initio.git"
+  },
+  "scripts": {
+    "prepublish": "npm prune; jshint lib/"
+  },
+  "dependencies": {
+    "nib": "0.7.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "stylus": "*"
+  },
+  "engine": "node >= 0.4.0",
+  "main": "lib/initio"
+}

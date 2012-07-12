@@ -1,0 +1,26 @@
+
+.button
+  background: gray linear-gradient(top, darken(white, 10), darken(white, 30))
+  border-radius: base-radius
+  display: inline-block
+  padding: 8px
+  [class^='ic_']
+    margin: 0 8px 0 0
+
+/**
+ * Icons
+ */
+
+[class^='ic_']
+  background-size: 32px
+  display: inline-block
+  height: 32px
+  margin: 8px
+  vertical-align: middle
+  width: 32px
+
+for icon in imagelist()
+  name = basename(unquote(icon), '.png')
+  .ic_{name}
+    background: url(icon) no-repeat
+

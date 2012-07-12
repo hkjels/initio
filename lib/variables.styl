@@ -1,0 +1,17 @@
+
+// Typography
+
+base-font         ?= Helvetica, Arial, Sans-serif
+base-font-size    ?= 14px
+base-line-height  ?= base-font-size * 1.5
+if odd(round(base-line-height))
+  base-line-height = round(base-line-height) + 1px
+
+// Alignment
+
+base-space = base-line-height/2
+
+// Finesse
+
+base-radius = 3px
+
