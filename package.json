@@ -9,7 +9,7 @@
     "url": "git://github.com/hkjels/initio.git"
   },
   "scripts": {
-    "prepublish": "npm prune; jshint lib/"
+    "prepublish": "npm prune"
   },
   "dependencies": {
     "nib": "0.7.x"
