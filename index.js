@@ -1,3 +1,3 @@
-"use strict"
+'use strict';
 
-module.exports = require('./lib/initio')
+module.exports = require('./lib/initio');

@@ -1,0 +1,32 @@
+
+body
+  font-size: base-font-size
+  font-family: base-font
+  text-rendering: optimizeLegibility
+
+a
+  transition: color .2s ease-in-out
+
+p, ul, ol, dl, blockquote
+  margin-bottom: base-space
+
+/* Hold on */
+b, strong
+  font-weight: bold
+
+header-font-size ?= base-font-size
+for num in 6 5 4 3 2 1
+  h{num}
+    font-size: header-font-size
+    line-height: unit((header-font-size/24), em)
+  header-font-size += 8px
+
+for pos in left right
+  .{pos}
+    float: pos
+  .a{pos}
+    text-align: pos
+
+.acenter
+  text-align: center
+

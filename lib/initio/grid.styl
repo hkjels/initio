@@ -1,0 +1,22 @@
+
+.row
+  display: block
+  width: grid-width
+  .row
+    width: auto
+
+[class*='span']
+  display: inline-block
+  margin: base-space
+
+
+// Width of a single spanning column
+
+column = 100 / columns
+
+// Create spans
+
+for num in 1..columns
+  .span{num}
+    width: unit(column * num, '%')
+

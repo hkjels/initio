@@ -1,0 +1,21 @@
+html
+  height: 100%
+
+body
+  background: linear-gradient(top, white, darken(white, 2))
+  color: darkgray
+  font: 14px 'Helvetica Neue', Arial
+  padding: 80px
+
+h1
+  font-size: 2.6em
+
+.stack
+  color: lightgray
+  cursor: default
+  list-style: none
+  reset-box-model()
+  li
+    transition: color 0.2s linear
+    &:hover
+      color: darkgray
