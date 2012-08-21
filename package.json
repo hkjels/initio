@@ -1,9 +1,15 @@
 {
   "name": "initio",
   "author": "Henrik Kjelsberg",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "description": "A proper beginning for your stylusneeds.",
-  "keywords": ["stylus", "framework", "styl", "css", "sprite"],
+  "keywords": [
+    "stylus",
+    "framework",
+    "styl",
+    "css",
+    "sprite"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/hkjels/initio.git"
